@@ -3,7 +3,14 @@ import './Products.css';
 
 const Products = () => {
   return (
-    <div>card</div>
+    <div className='p'>
+    <div className="p-browser">
+      <div className="p-circle"></div>
+      <div className="p-circle"></div>
+      <div className="p-circle"></div>
+    </div>  
+    
+  </div>
   )
 }
 
